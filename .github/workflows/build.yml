@@ -16,7 +16,7 @@ jobs:
         uses: dabao1955/kernel_build_action@main
         with:
           kernel-url: https://github.com/LineageOS/android_kernel_google_msm-4.9
-          kernel-branch: lineage-22.2
+          kernel-branch: lineage-22.1
           config: sdm670_defconfig
           arch: arm64
           aosp-gcc: true
