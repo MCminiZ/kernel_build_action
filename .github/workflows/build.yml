@@ -15,8 +15,8 @@ jobs:
       - name: Build Kernel
         uses: dabao1955/kernel_build_action@main
         with:
-          kernel-url: https://github.com/LineageOS/android_kernel_google_msm-4.9
-          kernel-branch: lineage-22.1
+          kernel-url: https://github.com/Evolution-X-Devices/kernel_google_b4s4
+          kernel-branch: bka
           config: sdm670_defconfig
           arch: arm64
           aosp-gcc: true
